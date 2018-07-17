@@ -15,6 +15,9 @@
 		9FC8D6FB20EDB9DF00A26886 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC8D6FA20EDB9DF00A26886 /* main.m */; };
 		9FC8D70520EDB9DF00A26886 /* BIP39DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC8D70420EDB9DF00A26886 /* BIP39DemoTests.m */; };
 		9FC8D71020EDB9DF00A26886 /* BIP39DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC8D70F20EDB9DF00A26886 /* BIP39DemoUITests.m */; };
+		9FC8D71F20EDBBA900A26886 /* NSData+MyChange.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC8D71E20EDBBA900A26886 /* NSData+MyChange.m */; };
+		9FC8D72220EDBE6D00A26886 /* NSString+MyChange.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC8D72120EDBE6D00A26886 /* NSString+MyChange.m */; };
+		9FC8D72420EDC36700A26886 /* english.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9FC8D72320EDC36700A26886 /* english.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		9FC8D70B20EDB9DF00A26886 /* BIP39DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BIP39DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FC8D70F20EDB9DF00A26886 /* BIP39DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIP39DemoUITests.m; sourceTree = "<group>"; };
 		9FC8D71120EDB9DF00A26886 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FC8D71D20EDBBA900A26886 /* NSData+MyChange.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+MyChange.h"; sourceTree = "<group>"; };
+		9FC8D71E20EDBBA900A26886 /* NSData+MyChange.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+MyChange.m"; sourceTree = "<group>"; };
+		9FC8D72020EDBE6D00A26886 /* NSString+MyChange.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+MyChange.h"; sourceTree = "<group>"; };
+		9FC8D72120EDBE6D00A26886 /* NSString+MyChange.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+MyChange.m"; sourceTree = "<group>"; };
+		9FC8D72320EDC36700A26886 /* english.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = english.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +109,15 @@
 		9FC8D6EA20EDB9DD00A26886 /* BIP39Demo */ = {
 			isa = PBXGroup;
 			children = (
+				9FC8D72320EDC36700A26886 /* english.txt */,
 				9FC8D6EB20EDB9DD00A26886 /* AppDelegate.h */,
 				9FC8D6EC20EDB9DD00A26886 /* AppDelegate.m */,
 				9FC8D6EE20EDB9DD00A26886 /* ViewController.h */,
 				9FC8D6EF20EDB9DD00A26886 /* ViewController.m */,
+				9FC8D71D20EDBBA900A26886 /* NSData+MyChange.h */,
+				9FC8D71E20EDBBA900A26886 /* NSData+MyChange.m */,
+				9FC8D72020EDBE6D00A26886 /* NSString+MyChange.h */,
+				9FC8D72120EDBE6D00A26886 /* NSString+MyChange.m */,
 				9FC8D6F120EDB9DD00A26886 /* Main.storyboard */,
 				9FC8D6F420EDB9DF00A26886 /* Assets.xcassets */,
 				9FC8D6F620EDB9DF00A26886 /* LaunchScreen.storyboard */,
@@ -238,6 +251,7 @@
 				9FC8D6F820EDB9DF00A26886 /* LaunchScreen.storyboard in Resources */,
 				9FC8D6F520EDB9DF00A26886 /* Assets.xcassets in Resources */,
 				9FC8D6F320EDB9DD00A26886 /* Main.storyboard in Resources */,
+				9FC8D72420EDC36700A26886 /* english.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +278,8 @@
 			files = (
 				9FC8D6F020EDB9DD00A26886 /* ViewController.m in Sources */,
 				9FC8D6FB20EDB9DF00A26886 /* main.m in Sources */,
+				9FC8D71F20EDBBA900A26886 /* NSData+MyChange.m in Sources */,
+				9FC8D72220EDBE6D00A26886 /* NSString+MyChange.m in Sources */,
 				9FC8D6ED20EDB9DD00A26886 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
